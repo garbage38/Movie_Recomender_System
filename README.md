@@ -18,12 +18,12 @@ The movie metadata is sourced from the [TMDb Movie Metadata](https://www.kaggle.
 ## Web Application
 A simple web application was built using the `streamlit` library in Python. The app allows users to:
 1. Select a movie from a dropdown list.
-2. View the top 5 recommended movies along with their posters.
+2. View the top 5 recommended movies name.
 
    
 
 ### Files Us![Screenshot 2024-09-06 135744](https://github.com/user-attachments/assets/03130933-d434-4bd0-9d57-cdfe4c9bf3fa)
-ed
+
 The following files are required to run the project:
 - **app.py**: The main Python script that runs the Streamlit web application.
 - **movie_dict.pkl**: A serialized file containing the movie dictionary used for the dropdown list.
@@ -37,10 +37,6 @@ The following files are required to run the project:
 
    ```bash
    streamlit run app.py
-
-
-
-
 
 This script provides an overview of the project, instructions on how to run it, and mentions the tools and files involved. Let me know if you'd like any changes!
 
